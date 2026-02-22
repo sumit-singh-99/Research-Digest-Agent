@@ -1,0 +1,1282 @@
+[
+  {
+    "claim": "[ 265 ] Moritz Hardt said \"the most robust fact in this research area is that fairness through blindness doesn't work.\" [ 266 ] Criticism of COMPAS highlighted that machine learning models are designed to make \"predictions\" that are only valid if we assume that the future will resemble the past.",
+    "evidence": "these features as it would on \"race\" or \"gender\". [ 265 ] Moritz Hardt said \"the most robust fact in this research area is that fairness through blindness doesn't work.\" [ 266 ] Criticism of COMPAS hi...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 296,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 291 ] Technological unemployment Main articles: Workplace impact of artificial intelligence and Technological unemployment Economists have frequently highlighted the risks of redundancies from AI, and speculated about unemployment if there is no adequate social policy for full employment.",
+    "evidence": "housands of toxic molecules in a matter of hours. [ 291 ] Technological unemployment Main articles: Workplace impact of artificial intelligence and Technological unemployment Economists have frequentl...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 291,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 283 ] Bad actors and weaponized AI Main articles: Lethal autonomous weapon , Artificial intelligence arms race , and AI safety Artificial intelligence provides a number of tools that are useful to bad actors , such as authoritarian governments , terrorists , criminals or rogue states .",
+    "evidence": "n activations with human-understandable concepts. [ 283 ] Bad actors and weaponized AI Main articles: Lethal autonomous weapon , Artificial intelligence arms race , and AI safety Artificial intelligen...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 288,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Machine consciousness, sentience, and mind Main articles: Philosophy of artificial intelligence and Artificial consciousness There is no settled consensus in philosophy of mind on whether a machine can have a mind , consciousness and mental states in the same sense that human beings do.",
+    "evidence": "neral intelligence studies this area exclusively. Machine consciousness, sentience, and mind Main articles: Philosophy of artificial intelligence and Artificial consciousness There is no settled conse...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 287,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Asimov's laws are often brought up during lay discussions of machine ethics; [ 448 ] while almost all artificial intelligence researchers are familiar with Asimov's laws through popular culture, they generally consider the laws useless for many reasons, one of which is their ambiguity.",
+    "evidence": "with the \" Multivac \" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine ethics; [ 448 ] while almost all artificial intelligence researchers are familiar...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 286,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 163 ] AI technologies enable coordination of sensors and effectors, threat detection and identification, marking of enemy positions, target acquisition , coordination and deconfliction of distributed Joint Fires between networked combat vehicles, both human-operated and autonomous.",
+    "evidence": "ons, and semiautonomous and autonomous vehicles . [ 163 ] AI technologies enable coordination of sensors and effectors, threat detection and identification, marking of enemy positions, target acquisit...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 284,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 428 ] Computationalism and functionalism Main articles: Computational theory of mind and Functionalism (philosophy of mind) Computationalism is the position in the philosophy of mind that the human mind is an information processing system and that thinking is a form of computing.",
+    "evidence": "ired for the person to know what red looks like . [ 428 ] Computationalism and functionalism Main articles: Computational theory of mind and Functionalism (philosophy of mind) Computationalism is the ...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 282,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 172 ] [ 173 ] [ 174 ] Companies in a variety of sectors have used generative AI, including those in software development, healthcare, [ 175 ] finance, [ 176 ] entertainment, [ 177 ] customer service, [ 178 ] sales and marketing, [ 179 ] art, writing, [ 180 ] and product design.",
+    "evidence": "text-to-video models such as Veo , LTX and Sora . [ 172 ] [ 173 ] [ 174 ] Companies in a variety of sectors have used generative AI, including those in software development, healthcare, [ 175 ] financ...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 280,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Williams, Rhiannon (28 June 2023), \"Humans may be more likely to believe disinformation generated by AI\" , MIT Technology Review , archived from the original on 16 September 2024 , retrieved 5 October 2024 Wirtz, Bernd W.; Weyerer, Jan C.; Geyer, Carolin (24 July 2018).",
+    "evidence": "e original on 6 May 2018 . Retrieved 5 May 2018 . Williams, Rhiannon (28 June 2023), \"Humans may be more likely to believe disinformation generated by AI\" , MIT Technology Review , archived from the o...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 270,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "^ Mazeika, Mantas; Yin, Xuwang; Tamirisa, Rishub; Lim, Jaehyuk; Lee, Bruce W.; Ren, Richard; Phan, Long; Mu, Norman; Khoja, Adam (2025), Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs , Figure 16, arXiv : 2502.08640 ^ Goffrey (2008) , p.",
+    "evidence": "24 July 2024 . ^ a b Rose (2023) . ^ CNA (2019) . ^ Mazeika, Mantas; Yin, Xuwang; Tamirisa, Rishub; Lim, Jaehyuk; Lee, Bruce W.; Ren, Richard; Phan, Long; Mu, Norman; Khoja, Adam (2025), Utility Engin...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 267,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ a ] To reach these goals, AI researchers have adapted and integrated a wide range of techniques, including search and mathematical optimization , formal logic , artificial neural networks , and methods based on statistics , operations research , and economics .",
+    "evidence": "cessing , perception , and support for robotics . [ a ] To reach these goals, AI researchers have adapted and integrated a wide range of techniques, including search and mathematical optimization , fo...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 263,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "During the 2024 Indian elections , US$50 million was spent on authorized AI-generated content, notably by creating deepfakes of allied (including sometimes deceased) politicians to better engage with voters, and by translating speeches to various local languages.",
+    "evidence": "debris avoidance, and more autonomous operation. During the 2024 Indian elections , US$50 million was spent on authorized AI-generated content, notably by creating deepfakes of allied (including somet...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 263,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 211 ] AI developers argue that this is the only way to deliver valuable applications and have developed several techniques that attempt to preserve privacy while still obtaining the data, such as data aggregation , de-identification and differential privacy .",
+    "evidence": "ethical and a violation of the right to privacy . [ 211 ] AI developers argue that this is the only way to deliver valuable applications and have developed several techniques that attempt to preserve ...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 261,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 352 ] In a 2023 Fox News poll, 35% of Americans thought it \"very important\", and an additional 41% thought it \"somewhat important\", for the federal government to regulate AI, versus 13% responding \"not very important\" and 8% responding \"not at all important\".",
+    "evidence": "nd 22% disagree, that AI poses risks to humanity. [ 352 ] In a 2023 Fox News poll, 35% of Americans thought it \"very important\", and an additional 41% thought it \"somewhat important\", for the federal ...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 261,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ aa ] The unprecedented success of statistical machine learning in the 2010s eclipsed all other approaches (so much so that some sources, especially in the business world, use the term \"artificial intelligence\" to mean \"machine learning with neural networks\").",
+    "evidence": "m has guided AI research for most of its history. [ aa ] The unprecedented success of statistical machine learning in the 2010s eclipsed all other approaches (so much so that some sources, especially ...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 261,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "The loss of privacy is further exacerbated by AI's ability to process and combine vast amounts of data, potentially leading to a surveillance society where individual activities are constantly monitored and analyzed without adequate safeguards or transparency.",
+    "evidence": "thering and unauthorized access by third parties. The loss of privacy is further exacerbated by AI's ability to process and combine vast amounts of data, potentially leading to a surveillance society ...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 260,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 293 ] A survey of economists showed disagreement about whether the increasing use of robots and AI will cause a substantial increase in long-term unemployment , but they generally agree that it could be a net benefit if productivity gains are redistributed .",
+    "evidence": "edge that \"we're in uncharted territory\" with AI. [ 293 ] A survey of economists showed disagreement about whether the increasing use of robots and AI will cause a substantial increase in long-term un...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 260,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "AI has been used to predict the ripening time for crops such as tomatoes, monitor soil moisture, operate agricultural robots, conduct predictive analytics , classify livestock pig call emotions, automate greenhouses, detect diseases and pests, and save water.",
+    "evidence": "mists use AI to conduct research and development. AI has been used to predict the ripening time for crops such as tomatoes, monitor soil moisture, operate agricultural robots, conduct predictive analy...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 259,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 442 ] Transhumanism Main article: Transhumanism Robot designer Hans Moravec , cyberneticist Kevin Warwick and inventor Ray Kurzweil have predicted that humans and machines may merge in the future into cyborgs that are more capable and powerful than either.",
+    "evidence": "he physical limits of what the technology can do. [ 442 ] Transhumanism Main article: Transhumanism Robot designer Hans Moravec , cyberneticist Kevin Warwick and inventor Ray Kurzweil have predicted t...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 258,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 147 ] In 2024, Google DeepMind introduced SIMA, a type of AI capable of autonomously playing nine previously unseen open-world video games by observing screen output, as well as executing short, specific tasks in response to natural language instructions.",
+    "evidence": "urismo drivers using deep reinforcement learning. [ 147 ] In 2024, Google DeepMind introduced SIMA, a type of AI capable of autonomously playing nine previously unseen open-world video games by observ...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 257,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Philosopher Nick Bostrom argued that if one gives almost any goal to a sufficiently powerful AI, it may choose to destroy humanity to achieve it (he used the example of an automated paperclip factory that destroys the world to get more iron for paperclips).",
+    "evidence": "nd use learning and intelligence to achieve them. Philosopher Nick Bostrom argued that if one gives almost any goal to a sufficiently powerful AI, it may choose to destroy humanity to achieve it (he u...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 257,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 310 ] Personalities such as Stephen Hawking, Bill Gates , and Elon Musk , [ 311 ] as well as AI pioneers such as Geoffrey Hinton , Yoshua Bengio , Stuart Russell , Demis Hassabis , and Sam Altman , have expressed concerns about existential risk from AI.",
+    "evidence": "cerned by risk from eventual superintelligent AI. [ 310 ] Personalities such as Stephen Hawking, Bill Gates , and Elon Musk , [ 311 ] as well as AI pioneers such as Geoffrey Hinton , Yoshua Bengio , S...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 255,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 341 ] Regulation Main articles: Regulation of artificial intelligence , Regulation of algorithms , and AI safety The first global AI Safety Summit was held in the United Kingdom in November 2023 with a declaration calling for international cooperation.",
+    "evidence": ", ability to reason, and autonomous capabilities. [ 341 ] Regulation Main articles: Regulation of artificial intelligence , Regulation of algorithms , and AI safety The first global AI Safety Summit w...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 254,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Turing notes that we can not determine these things about other people but \"it is usual to have a polite convention that everyone thinks.\" [ 402 ] The Turing test can provide some evidence of intelligence, but it penalizes non-human intelligent behavior.",
+    "evidence": "is \"actually\" thinking or literally has a \"mind\". Turing notes that we can not determine these things about other people but \"it is usual to have a polite convention that everyone thinks.\" [ 402 ] The...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 254,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 382 ] ^ Matteo Wong wrote in The Atlantic : \"Whereas for decades, computer-science fields such as natural-language processing, computer vision, and robotics used extremely different methods, now they all use a programming method called \"deep learning\".",
+    "evidence": "s: Nouvelle AI . [ 381 ] Developmental robotics . [ 382 ] ^ Matteo Wong wrote in The Atlantic : \"Whereas for decades, computer-science fields such as natural-language processing, computer vision, and ...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 0,
+    "claim_length": 254,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 173 ] [ 174 ] [ 175 ] [ 176 ] Running models directly on these devices eliminates the need to transfer and store data on cloud servers for further processing, thereby reducing the risk of data breaches, privacy leaks and theft of intellectual property, personal data and business secrets.",
+    "evidence": "e computers , edge devices and microcontrollers . [ 173 ] [ 174 ] [ 175 ] [ 176 ] Running models directly on these devices eliminates the need to transfer and store data on cloud servers for further p...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 0,
+    "claim_length": 290,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 164 ] Hardware [ edit ] Since the 2010s, advances in both machine learning algorithms and computer hardware have led to more efficient methods for training deep neural networks (a particular narrow subdomain of machine learning) that contain many layers of nonlinear hidden units.",
+    "evidence": ", but this requires these biases to be mitigated. [ 164 ] Hardware [ edit ] Since the 2010s, advances in both machine learning algorithms and computer hardware have led to more efficient methods for t...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 0,
+    "claim_length": 282,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 127 ] The House of Lords Select Committee, which claimed that such an \"intelligence system\" that could have a \"substantial impact on an individual's life\" would not be considered acceptable unless it provided \"a full and satisfactory explanation for the decisions\" it makes.",
+    "evidence": "pattern that the machine extracted from the data. [ 127 ] The House of Lords Select Committee, which claimed that such an \"intelligence system\" that could have a \"substantial impact on an individual's...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 0,
+    "claim_length": 276,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 162 ] Concern for fairness in machine learning, that is, reducing bias in machine learning and propelling its use for human good, is increasingly expressed by artificial intelligence scientists, including Fei-Fei Li , who said that \"[t]here's nothing artificial about AI.",
+    "evidence": "g may take longer to be adopted in other domains. [ 162 ] Concern for fairness in machine learning, that is, reducing bias in machine learning and propelling its use for human good, is increasingly ex...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 0,
+    "claim_length": 273,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 132 ] Explainability [ edit ] Main article: Explainable artificial intelligence Explainable AI (XAI), or Interpretable AI, or Explainable Machine Learning (XML), is artificial intelligence (AI) in which humans can understand the decisions or predictions made by the AI.",
+    "evidence": "ary sensitivity for the findings research itself. [ 132 ] Explainability [ edit ] Main article: Explainable artificial intelligence Explainable AI (XAI), or Interpretable AI, or Explainable Machine Le...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 0,
+    "claim_length": 271,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "^ Harnad, Stevan (2008), \"The Annotation Game: On Turing (1950) on Computing, Machinery, and Intelligence\" , in Epstein, Robert; Peters, Grace (eds.), The Turing Test Sourcebook: Philosophical and Methodological Issues in the Quest for the Thinking Computer , Kluwer, pp.",
+    "evidence": "ing . McGraw Hill. p. 2. ISBN 978-0-07-042807-2 . ^ Harnad, Stevan (2008), \"The Annotation Game: On Turing (1950) on Computing, Machinery, and Intelligence\" , in Epstein, Robert; Peters, Grace (eds.),...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 0,
+    "claim_length": 271,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Due to its generality, the field is studied in many other disciplines, such as game theory , control theory , operations research , information theory , simulation-based optimisation , multi-agent systems , swarm intelligence , statistics and genetic algorithms .",
+    "evidence": "ent to maximise some notion of cumulative reward. Due to its generality, the field is studied in many other disciplines, such as game theory , control theory , operations research , information theory...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 0,
+    "claim_length": 263,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "They attempted to approach the problem with various symbolic methods, as well as what were then termed \" neural networks \"; these were mostly perceptrons and other models that were later found to be reinventions of the generalised linear models of statistics.",
+    "evidence": "re interested in having machines learn from data. They attempted to approach the problem with various symbolic methods, as well as what were then termed \" neural networks \"; these were mostly perceptr...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 0,
+    "claim_length": 259,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 171 ] [ 172 ] Embedded machine learning [ edit ] Embedded machine learning is a sub-field of machine learning where models are deployed on embedded systems with limited computing resources, such as wearable computers , edge devices and microcontrollers .",
+    "evidence": "justable resistance to replicate neural synapses. [ 171 ] [ 172 ] Embedded machine learning [ edit ] Embedded machine learning is a sub-field of machine learning where models are deployed on embedded ...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 0,
+    "claim_length": 256,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 9 ] By the early 1960s, an experimental \"learning machine\" with punched tape memory, called Cybertron, had been developed by Raytheon Company to analyse sonar signals, electrocardiograms , and speech patterns using rudimentary reinforcement learning .",
+    "evidence": "h algorithms that mirror human thought processes. [ 9 ] By the early 1960s, an experimental \"learning machine\" with punched tape memory, called Cybertron, had been developed by Raytheon Company to ana...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 0,
+    "claim_length": 253,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 23 ] Work on symbolic/knowledge-based learning did continue within AI, leading to inductive logic programming (ILP), but the more statistical line of research was now outside the field of AI proper, in pattern recognition and information retrieval .",
+    "evidence": "to dominate AI, and statistics was out of favour. [ 23 ] Work on symbolic/knowledge-based learning did continue within AI, leading to inductive logic programming (ILP), but the more statistical line o...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 0,
+    "claim_length": 251,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 166 ] OpenAI estimated the hardware compute used in the largest deep learning projects from AlexNet (2012) to AlphaZero (2017), and found a 300,000-fold increase in the amount of compute required, with a doubling-time trendline of 3.4 months.",
+    "evidence": "thod of training large-scale commercial cloud AI. [ 166 ] OpenAI estimated the hardware compute used in the largest deep learning projects from AlexNet (2012) to AlphaZero (2017), and found a 300,000-...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 0,
+    "claim_length": 244,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 117 ] Singularitarians believe that machine superintelligence will \"accelerate technological progress\" by orders of magnitude and \"create even more intelligent entities ever faster\", which may lead to a pace of societal and technological change that is \"incomprehensible\" to us.",
+    "evidence": "ained wider popularity in the early 21st century. [ 117 ] Singularitarians believe that machine superintelligence will \"accelerate technological progress\" by orders of magnitude and \"create even more ...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 0,
+    "claim_length": 280,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 113 ] Estimates on the advent of artificial general intelligence vary, but half of machine learning experts surveyed in 2018 believe that AI will \"accomplish every task better and more cheaply\" than humans by 2063, and automate all human jobs by 2140.",
+    "evidence": "rescue , bomb disposal , firefighting , and war. [ 113 ] Estimates on the advent of artificial general intelligence vary, but half of machine learning experts surveyed in 2018 believe that AI will \"ac...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 0,
+    "claim_length": 253,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 70 ] Due to artificial intelligence being far more capable than computers, and still being in its infancy, it is not known whether it will follow the same trend; the question has been debated at length among economists and policymakers.",
+    "evidence": "eate significant net technological unemployment . [ 70 ] Due to artificial intelligence being far more capable than computers, and still being in its infancy, it is not known whether it will follow th...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 0,
+    "claim_length": 238,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 101 ] Within the field of AI ethics, significant yet-unsolved research problems include AI alignment (ensuring that AI behaviors are aligned with their creators' intended goals and interests) and the reduction of algorithmic bias .",
+    "evidence": "cal behavior of artificially intelligent agents . [ 101 ] Within the field of AI ethics, significant yet-unsolved research problems include AI alignment (ensuring that AI behaviors are aligned with th...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 0,
+    "claim_length": 233,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 93 ] Bayesian networks [ 94 ] are a tool that can be used for reasoning (using the Bayesian inference algorithm), [ g ] [ 96 ] learning (using the expectation–maximization algorithm ), [ h ] [ 98 ] planning (using decision networks ) [ 99 ] and perception (using dynamic Bayesian networks ).",
+    "evidence": "works , [ 92 ] game theory and mechanism design . [ 93 ] Bayesian networks [ 94 ] are a tool that can be used for reasoning (using the Bayesian inference algorithm), [ g ] [ 96 ] learning (using the e...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 1,
+    "claim_length": 293,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Probabilistic methods for uncertain reasoning A simple Bayesian network , with the associated conditional probability tables Many problems in AI (including reasoning, planning, learning, perception, and robotics) require the agent to operate with incomplete or uncertain information.",
+    "evidence": "been developed to describe many complex domains. Probabilistic methods for uncertain reasoning A simple Bayesian network , with the associated conditional probability tables Many problems in AI (inclu...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 1,
+    "claim_length": 283,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "21) ^ a b c Psychological evidence of the prevalence of sub-symbolic reasoning and knowledge: Kahneman (2011) , Dreyfus & Dreyfus (1986) , Wason & Shapiro (1966) , Kahneman, Slovic & Tversky (1982) ^ Knowledge representation and knowledge engineering : Russell & Norvig (2021 , chpt.",
+    "evidence": "inatorial explosion : Russell & Norvig (2021 , p. 21) ^ a b c Psychological evidence of the prevalence of sub-symbolic reasoning and knowledge: Kahneman (2011) , Dreyfus & Dreyfus (1986) , Wason & Sha...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 1,
+    "claim_length": 283,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Formal knowledge representations are used in content-based indexing and retrieval, [ 18 ] scene interpretation, [ 19 ] clinical decision support, [ 20 ] knowledge discovery (mining \"interesting\" and actionable inferences from large databases ), [ 21 ] and other areas.",
+    "evidence": "ently and make deductions about real-world facts. Formal knowledge representations are used in content-based indexing and retrieval, [ 18 ] scene interpretation, [ 19 ] clinical decision support, [ 20...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 1,
+    "claim_length": 268,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "For example, a system that could identify skin diseases better than medical professionals was found to actually have a strong tendency to classify images with a ruler as \"cancerous\", because pictures of malignancies typically include a ruler to show the scale.",
+    "evidence": "ing different than what the programmers intended. For example, a system that could identify skin diseases better than medical professionals was found to actually have a strong tendency to classify ima...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 1,
+    "claim_length": 260,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "In the 1980s, some researchers began to doubt that this approach would be able to imitate all the processes of human cognition, especially perception , robotics , learning and pattern recognition , [ 377 ] and began to look into \"sub-symbolic\" approaches.",
+    "evidence": "ects like plans, goals, beliefs, and known facts. In the 1980s, some researchers began to doubt that this approach would be able to imitate all the processes of human cognition, especially perception ...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 1,
+    "claim_length": 255,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 116 ] Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering new tools for chemists to tailor experimental conditions for optimal outcomes.",
+    "evidence": "obtained from basic linear techniques like OLS . [ 116 ] Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of ...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 1,
+    "claim_length": 285,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 38 ] Statistical physics [ edit ] Analytical and computational techniques derived from deep-rooted physics of disordered systems can be extended to large-scale problems, including machine learning, e.g., to analyse the weight space of deep neural networks .",
+    "evidence": "bined field that they call statistical learning . [ 38 ] Statistical physics [ edit ] Analytical and computational techniques derived from deep-rooted physics of disordered systems can be extended to ...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 1,
+    "claim_length": 259,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "These theoretical frameworks can be thought of as a kind of learner and have some analogous properties of how evidence is combined (e.g., Dempster's rule of combination), just like how in a pmf -based Bayesian approach would combine probabilities.",
+    "evidence": "possibility and imprecise probability theories . These theoretical frameworks can be thought of as a kind of learner and have some analogous properties of how evidence is combined (e.g., Dempster's ru...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 1,
+    "claim_length": 247,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Arntz, Melanie; Gregory, Terry; Zierahn, Ulrich (2016), \"The risk of automation for jobs in OECD countries: A comparative analysis\", OECD Social, Employment, and Migration Working Papers 189 Asada, M.; Hosoda, K.; Kuniyoshi, Y.; Ishiguro, H.; Inui, T.; Yoshikawa, Y.; Ogino, M.; Yoshida, C.",
+    "evidence": "11). Machine Ethics . Cambridge University Press. Arntz, Melanie; Gregory, Terry; Zierahn, Ulrich (2016), \"The risk of automation for jobs in OECD countries: A comparative analysis\", OECD Social, Empl...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 2,
+    "claim_length": 290,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Also, during meetings or small group meetings, a major advantage of collocated work is that individuals are able to move from one meeting to another, simply by overhearing a conversation, seeing what someone is working on, and being aware of how long they had worked on it with or without progress.",
+    "evidence": "lk and communicate via face-to-face interactions. Also, during meetings or small group meetings, a major advantage of collocated work is that individuals are able to move from one meeting to another, ...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 298,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 161 ] Extended working hours have been associated with negative impacts on health, well-being, and sleep, with contributing factors including disruptions to daily routines, heightened anxiety and worry, feelings of isolation, increased family and work-related stress, and prolonged screen time.",
+    "evidence": "urs per week wherever it would be legal to do so. [ 161 ] Extended working hours have been associated with negative impacts on health, well-being, and sleep, with contributing factors including disrup...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 296,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "The practice of working at home has been documented for centuries, but remote work for large employers began on a small scale in the 1970s, when technology was developed that could link satellite offices to downtown mainframes through dumb terminals using telephone lines as a network bridge .",
+    "evidence": "er space rather than from an office or workplace. The practice of working at home has been documented for centuries, but remote work for large employers began on a small scale in the 1970s, when techn...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 293,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 101 ] An increase in videoconferencing during remote work has led to what has been termed \" Zoom fatigue ,\" with factors such as prolonged eye contact, self-monitoring during calls, limited physical movement, and reduced non-verbal communication contributing to feelings of exhaustion.",
+    "evidence": "on and management than synchronous communication. [ 101 ] An increase in videoconferencing during remote work has led to what has been termed \" Zoom fatigue ,\" with factors such as prolonged eye conta...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 287,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "A 2022 study surveying 283 Austrian remote workers cohabiting with an intimate partner during mid-2020 found that women with children reported more exhausting experiences with home-based work, including longer working hours and less distinct boundaries between work and personal life.",
+    "evidence": "fety for vulnerable individuals working remotely. A 2022 study surveying 283 Austrian remote workers cohabiting with an intimate partner during mid-2020 found that women with children reported more ex...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 284,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "According to Vivek Murthy in his book Together: The Healing Power of Human Connection in a Sometimes Lonely World , face-to-face meetings, in-person collaboration, and brief informal interactions in the workplace contribute to a sense of belonging and community among workers.",
+    "evidence": "ping remote workers' attitudes and work outcomes. According to Vivek Murthy in his book Together: The Healing Power of Human Connection in a Sometimes Lonely World , face-to-face meetings, in-person c...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 276,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "By country, the percentage of workers that worked from home was highest in Finland (25.1%), Luxembourg (23.1%), Ireland (21.5%), Austria (18.1%), and the Netherlands (17.8%) and lowest in Bulgaria (1.2%), Romania (2.5%), Croatia (3.1%), Hungary (3.6%), and Latvia (4.5%).",
+    "evidence": "on who were aged 15–64, usually worked from home. By country, the percentage of workers that worked from home was highest in Finland (25.1%), Luxembourg (23.1%), Ireland (21.5%), Austria (18.1%), and ...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 271,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 53 ] For those able to have a hybrid arrangement, the ONS said there were significant perks, including an average of 56 minutes saved from commuting, and spending an average of 24 minutes more on sleep and rest and 15 minutes more on exercise, sports and wellbeing.",
+    "evidence": "sionals were the most likely to log on from home. [ 53 ] For those able to have a hybrid arrangement, the ONS said there were significant perks, including an average of 56 minutes saved from commuting...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 267,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 153 ] [ 112 ] Remote work does not necessarily change the skill variety or perceived meaningfulness of tasks compared to in-office work; however, opportunities for skill development may differ based on whether work is structured individually or collaboratively.",
+    "evidence": "stronger sense of meaningfulness and engagement. [ 153 ] [ 112 ] Remote work does not necessarily change the skill variety or perceived meaningfulness of tasks compared to in-office work; however, opp...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 263,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "\"Global, regional, and national burdens of ischemic heart disease and stroke attributable to exposure to long working hours for 194 countries, 2000–2016: A systematic analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury\" .",
+    "evidence": "a, Frank; Náfrádi, Bálint; et al. (May 17, 2021). \"Global, regional, and national burdens of ischemic heart disease and stroke attributable to exposure to long working hours for 194 countries, 2000–20...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 260,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 59 ] In the case of James v Redcats (Brands) Ltd (2007), it was confirmed that \"a home worker need not work at home, although typically he or she will do so; the only requirement is to work in a place not under the control or management of the other party\".",
+    "evidence": "under the control or management of that person\". [ 59 ] In the case of James v Redcats (Brands) Ltd (2007), it was confirmed that \"a home worker need not work at home, although typically he or she wil...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 259,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 102 ] In 2021, a ranking based on data breaches, stolen records, privacy laws, victim counts, and financial losses identified Vermont, South Carolina, South Dakota, Alabama, and Nebraska as the top five safest states for remote workers in the United States.",
+    "evidence": "6% cited Wi-Fi connectivity issues as challenges. [ 102 ] In 2021, a ranking based on data breaches, stolen records, privacy laws, victim counts, and financial losses identified Vermont, South Carolin...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 259,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 63 ] Cost reduction [ edit ] Remote work can reduce costs for organizations, including the cost of office space and related expenses such as parking, computer equipment, furniture, office supplies , lighting and heating, ventilation, and air conditioning .",
+    "evidence": "the employee who is skilled in that area of work. [ 63 ] Cost reduction [ edit ] Remote work can reduce costs for organizations, including the cost of office space and related expenses such as parking...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 258,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 144 ] While much of the research linking psychological distress to remote work focuses on the pandemic period, [ 145 ] continued attention to the intersection of domestic roles and remote work environments remains relevant in the post-pandemic workplace.",
+    "evidence": "among women without caregiving responsibilities. [ 144 ] While much of the research linking psychological distress to remote work focuses on the pandemic period, [ 145 ] continued attention to the int...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 256,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 96 ] In a 2021 study by McKinsey & Company , more than half of the workers supported companies adopting a hybrid work model, and more than a quarter stated that they would consider switching jobs if their current employer eliminated remote work options.",
+    "evidence": "heir employers if they had flexible work options. [ 96 ] In a 2021 study by McKinsey & Company , more than half of the workers supported companies adopting a hybrid work model, and more than a quarter...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 255,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "The UK's National Minimum Wage Act 1998 makes specific reference to home workers who \"contract with a person, for the purposes of that person's business, for the execution of work to be done in a place not under the control or management of that person\".",
+    "evidence": "n to workers who are employed in their own homes. The UK's National Minimum Wage Act 1998 makes specific reference to home workers who \"contract with a person, for the purposes of that person's busine...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 254,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 160 ] A 2021 report by the World Health Organization and the International Labour Organization indicated that remote work could contribute to increased health risks if it leads to working more than 55 hours per week wherever it would be legal to do so.",
+    "evidence": "associated with in-person workplace interactions. [ 160 ] A 2021 report by the World Health Organization and the International Labour Organization indicated that remote work could contribute to increa...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 254,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "According to job characteristics theory from the 1970s, the degree to which employees respond to job features such as autonomy and feedback is influenced by their personal need for accomplishment and development, referred to as \"growth need strength\".",
+    "evidence": "s to the characteristics of remote work may vary. According to job characteristics theory from the 1970s, the degree to which employees respond to job features such as autonomy and feedback is influen...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 251,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 32 ] The transition also increased the amount of time that individuals spent sitting at a workstation by up to two hours more per day, yet, most workers indicated being as productive working remotely as compared to office work before the pandemic.",
+    "evidence": "oworkers was supportive of health and well-being. [ 32 ] The transition also increased the amount of time that individuals spent sitting at a workstation by up to two hours more per day, yet, most wor...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 249,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Most studies find that remote work overall results in a decrease in energy use due to less time spent on energy-intensive personal transportation, [ 69 ] cleaner air, [ 70 ] and a reduction of electricity usage due to a lower office space footprint.",
+    "evidence": "and air pollution , with fewer cars on the roads. Most studies find that remote work overall results in a decrease in energy use due to less time spent on energy-intensive personal transportation, [ 6...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 249,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "The remote work arrangement during COVID-19 was better for higher-paid and higher-management personnel in terms of productivity and reported well-being; whereas individuals at the bottom end of the earning spectrum experienced reduced remuneration.",
+    "evidence": "l workers to support productivity and well-being. The remote work arrangement during COVID-19 was better for higher-paid and higher-management personnel in terms of productivity and reported well-bein...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 248,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Access to appropriate tools and facilities has also been cited as a potential challenge for maintaining focus during remote work, [ 135 ] [ better source needed ] though coworking spaces and short-term office rentals can help address this issue.",
+    "evidence": "owed by spouses, pets, neighbors, and solicitors. Access to appropriate tools and facilities has also been cited as a potential challenge for maintaining focus during remote work, [ 135 ] [ better sou...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 245,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 74 ] Fewer disruptions and distractions [ edit ] Empirical studies find fewer in-office interruptions as a mechanism for productivity gains in remote or hybrid arrangements, particularly for knowledge-based work and concentration-heavy tasks.",
+    "evidence": "larger homes which catered for home office space. [ 74 ] Fewer disruptions and distractions [ edit ] Empirical studies find fewer in-office interruptions as a mechanism for productivity gains in remot...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 244,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 76 ] A 2025 study published by Computers in Human Behavior found that working from home increased job concentration; in particular, among those with stable personality traits, the negative effects of increased social isolation were buffered.",
+    "evidence": "higher concentration and greater work engagement. [ 76 ] A 2025 study published by Computers in Human Behavior found that working from home increased job concentration; in particular, among those with...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 243,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 113 ] A 2006 study found that higher-quality relationships with teammates can decrease remote workers' job satisfaction, possibly due to frustrations arising from the challenges of maintaining relationships through digital communication.",
+    "evidence": "engagement among remote workers in a 2012 study. [ 113 ] A 2006 study found that higher-quality relationships with teammates can decrease remote workers' job satisfaction, possibly due to frustrations...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 239,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 166 ] Research has found that managers may exhibit bias against employees who are not physically present in the office, with perceptions of employee contribution influenced more by visibility than by the actual quality of work performed.",
+    "evidence": "due to concerns about reduced managerial control. [ 166 ] Research has found that managers may exhibit bias against employees who are not physically present in the office, with perceptions of employee...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 239,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Distributed work is far from perfect and there are many failures, some of which include: Complaints about the quality of communication over audio and video conferencing Hard to detect a person's motivation when you are not in the office.",
+    "evidence": "s or her role, distributed work can be a success. Distributed work is far from perfect and there are many failures, some of which include: Complaints about the quality of communication over audio and ...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 237,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Some of the benefits of distributed work include: Simultaneous access to real-time data from instruments around the world, allowing coworkers to talk while something is happening Cost reduction – both for the employee and the employer.",
+    "evidence": "e company or group displays technology readiness. Some of the benefits of distributed work include: Simultaneous access to real-time data from instruments around the world, allowing coworkers to talk ...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 235,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Employee pressure to be seen as valuable [ edit ] Remote workers may experience pressure to produce higher levels of output in order to demonstrate their value and counter perceptions that remote work involves reduced productivity.",
+    "evidence": "remains relevant in the post-pandemic workplace. Employee pressure to be seen as valuable [ edit ] Remote workers may experience pressure to produce higher levels of output in order to demonstrate the...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 231,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 124 ] Lessened work motivation [ edit ] Skill variety has been found to have a strong relationship with internal work motivation , with jobs that involve a range of skills leading to greater intrinsic motivation among employees.",
+    "evidence": "l information compared to in-person interactions. [ 124 ] Lessened work motivation [ edit ] Skill variety has been found to have a strong relationship with internal work motivation , with jobs that in...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 230,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 176 ] Taxation complexity [ edit ] Remote workers are typically subject to taxation based on several factors, including their place of residence, the location of their employer, and the tax laws of the applicable jurisdictions.",
+    "evidence": "he Great Resignation and the rise of remote work. [ 176 ] Taxation complexity [ edit ] Remote workers are typically subject to taxation based on several factors, including their place of residence, th...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 229,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 15 ] In 2010, the Telework Enhancement Act of 2010 required each executive agency in the United States to establish policy allowing remote work to the maximum extent possible, so long as employee performance is not diminished.",
+    "evidence": "oduce their work and allows for distributed work. [ 15 ] In 2010, the Telework Enhancement Act of 2010 required each executive agency in the United States to establish policy allowing remote work to t...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 2,
+    "claim_length": 228,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Past automation has both substituted and complemented labor; machines replaced humans at some lower-paying jobs (for example in agriculture), but this was compensated by the creation of new, higher-paying jobs.",
+    "evidence": "ies have helped increase humans' economic output. Past automation has both substituted and complemented labor; machines replaced humans at some lower-paying jobs (for example in agriculture), but this...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 2,
+    "claim_length": 210,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Although the error rate for both whites and blacks was calibrated equal at exactly 61%, the errors for each race were different—the system consistently overestimated the chance that a black person would re-offend and would underestimate the chance that a white person would not re-offend.",
+    "evidence": "program was not told the races of the defendants. Although the error rate for both whites and blacks was calibrated equal at exactly 61%, the errors for each race were different—the system consistentl...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 3,
+    "claim_length": 288,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 150 ] [ 151 ] Another example includes predictive policing company Geolitica 's predictive algorithm that resulted in \"disproportionately high levels of over-policing in low-income and minority communities\" after being trained with historical crime data.",
+    "evidence": "by similarity to previous successful applicants. [ 150 ] [ 151 ] Another example includes predictive policing company Geolitica 's predictive algorithm that resulted in \"disproportionately high levels...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 3,
+    "claim_length": 256,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 159 ] In an experiment carried out by ProPublica , an investigative journalism organisation, a machine learning algorithm's insight into the recidivism rates among prisoners falsely flagged \"black defendants high risk twice as often as white defendants\".",
+    "evidence": "it quickly picked up racist and sexist language. [ 159 ] In an experiment carried out by ProPublica , an investigative journalism organisation, a machine learning algorithm's insight into the recidivi...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 3,
+    "claim_length": 256,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 75 ] Local search Illustration of gradient descent for 3 different starting points; two parameters (represented by the plan coordinates) are adjusted in order to minimize the loss function (the height) Local search uses mathematical optimization to find a solution to a problem.",
+    "evidence": "and countermoves, looking for a winning position. [ 75 ] Local search Illustration of gradient descent for 3 different starting points; two parameters (represented by the plan coordinates) are adjuste...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 4,
+    "claim_length": 280,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 55 ] In 2019, generative pre-trained transformer (or \"GPT\") language models began to generate coherent text, [ 56 ] [ 57 ] and by 2023, these models were able to get human-level scores on the bar exam , SAT test, GRE test, and many other real-world applications.",
+    "evidence": "using an attention mechanism), [ 54 ] and others. [ 55 ] In 2019, generative pre-trained transformer (or \"GPT\") language models began to generate coherent text, [ 56 ] [ 57 ] and by 2023, these models...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 4,
+    "claim_length": 264,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 153 ] In January 2025, Microsoft proposed the technique rStar-Math that leverages Monte Carlo tree search and step-by-step reasoning, enabling a relatively small language model like Qwen-7B to solve 53% of the AIME 2024 and 90% of the MATH benchmark problems.",
+    "evidence": "MATH dataset of competition mathematics problems. [ 153 ] In January 2025, Microsoft proposed the technique rStar-Math that leverages Monte Carlo tree search and step-by-step reasoning, enabling a rel...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 4,
+    "claim_length": 261,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Experts disagree about how well and under what circumstances this rationale will hold up in courts of law; relevant factors may include \"the purpose and character of the use of the copyrighted work\" and \"the effect upon the potential market for the copyrighted work\".",
+    "evidence": "is then used under the rationale of \" fair use \". Experts disagree about how well and under what circumstances this rationale will hold up in courts of law; relevant factors may include \"the purpose a...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 5,
+    "claim_length": 267,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 253 ] At the 2022 ACM Conference on Fairness, Accountability, and Transparency a paper reported that a CLIP‑based ( Contrastive Language-Image Pre-training ) robotic system reproduced harmful gender‑ and race‑linked stereotypes in a simulated manipulation task.",
+    "evidence": "t it may conflict with anti-discrimination laws . [ 253 ] At the 2022 ACM Conference on Fairness, Accountability, and Transparency a paper reported that a CLIP‑based ( Contrastive Language-Image Pre-t...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 6,
+    "claim_length": 263,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 66 ] For example, some virtual assistants are programmed to speak conversationally or even to banter humorously; it makes them appear more sensitive to the emotional dynamics of human interaction, or to otherwise facilitate human–computer interaction .",
+    "evidence": "s, or simulate human feeling, emotion, and mood . [ 66 ] For example, some virtual assistants are programmed to speak conversationally or even to banter humorously; it makes them appear more sensitive...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 6,
+    "claim_length": 254,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Common ground is not just established from some general knowledge about the person's background, but also through specific knowledge learned from several different cues that are available at the moment, including the person's appearance and behavior during conversational interactions.",
+    "evidence": "aware that they have this information in common. Common ground is not just established from some general knowledge about the person's background, but also through specific knowledge learned from sever...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 6,
+    "claim_length": 285,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "According to media richness theory , face-to-face communication allows for processing rich information through the clarification of ambiguous issues, immediate feedback, and personalized communication including body language and tone of voice.",
+    "evidence": "m for mistakes and miscommunication can increase. According to media richness theory , face-to-face communication allows for processing rich information through the clarification of ambiguous issues, ...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 6,
+    "claim_length": 243,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "The CAA exists in two environments, one is the behavioural environment where it behaves, and the other is the genetic environment, wherefrom it initially and only once receives initial emotions about situations to be encountered in the behavioural environment.",
+    "evidence": "is the emotion toward the consequence situation. The CAA exists in two environments, one is the behavioural environment where it behaves, and the other is the genetic environment, wherefrom it initial...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 6,
+    "claim_length": 260,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "^ \"Экономист Дарон Асемоглу написал книгу об угрозах искусственного интеллекта — и о том, как правильное управление может обратить его на пользу человечеству Спецкор \"Медузы\" Маргарита Лютова узнала у ученого, как скоро мир сможет приблизиться к этой утопии\" .",
+    "evidence": "n 17 September 2024 . Retrieved 28 October 2024 . ^ \"Экономист Дарон Асемоглу написал книгу об угрозах искусственного интеллекта — и о том, как правильное управление может обратить его на пользу челов...",
+    "source": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "group_id": 7,
+    "claim_length": 260,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "In his 1992 travelogue Exploring the Internet , Carl Malamud described a \" digital nomad \" as a person who \"travels the world with a laptop, setting up FidoNet nodes .\" [ 10 ] In 1993, Random House published the Digital Nomad's Guide series of guidebooks by Mitch Ratcliffe and Andrew Gore.",
+    "evidence": "soft Teams , Google Meet , Slack , and WhatsApp . In his 1992 travelogue Exploring the Internet , Carl Malamud described a \" digital nomad \" as a person who \"travels the world with a laptop, setting u...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 8,
+    "claim_length": 290,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "The guidebooks, PowerBook , AT&T EO Personal Communicator , and Newton's Law , used the term \"digital nomad\" to refer to the increased mobility and more powerful communication and productivity technologies that facilitated remote work.",
+    "evidence": "of guidebooks by Mitch Ratcliffe and Andrew Gore. The guidebooks, PowerBook , AT&T EO Personal Communicator , and Newton's Law , used the term \"digital nomad\" to refer to the increased mobility and mo...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 8,
+    "claim_length": 235,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Between the 1970s and 1990s, American terrorist Ted Kaczynski carried out a series of bombings across America and published the Unabomber Manifesto denouncing technology's negative impacts on nature and human freedom.",
+    "evidence": ", a process known as technological unemployment . Between the 1970s and 1990s, American terrorist Ted Kaczynski carried out a series of bombings across America and published the Unabomber Manifesto de...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 8,
+    "claim_length": 217,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 90 ] An increase in productivity is also supported by sociotechnical systems (STS) theory (1951), which states that, unless absolutely essential, there should be minimal specification of objectives and how to do tasks in order to avoid inhibiting options or effective actions.",
+    "evidence": "lps employees achieve a better work-life balance. [ 90 ] An increase in productivity is also supported by sociotechnical systems (STS) theory (1951), which states that, unless absolutely essential, th...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 9,
+    "claim_length": 278,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 104 ] [ 85 ] [ 105 ] The adaptation of technology within organizations has been studied under adaptive structuration theory , which suggests that the use of technology evolves based on both the intended purpose and how individuals choose to use it in practice.",
+    "evidence": "to in-person companionship and on-site benefits. [ 104 ] [ 85 ] [ 105 ] The adaptation of technology within organizations has been studied under adaptive structuration theory , which suggests that the...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 9,
+    "claim_length": 262,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 125 ] Polish philosopher Henryk Skolimowski framed it like so: \"science concerns itself with what is , technology with what is to be .\" [ 126 ] : 375 The direction of causality between scientific discovery and technological innovation has been debated by scientists, philosophers and policymakers.",
+    "evidence": "cientific knowledge is fundamentally explanatory. [ 125 ] Polish philosopher Henryk Skolimowski framed it like so: \"science concerns itself with what is , technology with what is to be .\" [ 126 ] : 37...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 299,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Movements Appropriate technology Main article: Appropriate technology Some segments of the 1960s hippie counterculture grew to dislike urban living and developed a preference for locally autonomous , sustainable , and decentralized technology, termed appropriate technology .",
+    "evidence": "opportunity to usher in a post-scarcity economy . Movements Appropriate technology Main article: Appropriate technology Some segments of the 1960s hippie counterculture grew to dislike urban living an...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 275,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 107 ] He invites policymakers to question the assumptions that technological progress is always beneficial, that scientific openness is always preferable, or that they can afford to wait until a dangerous technology has been invented before they prepare mitigations.",
+    "evidence": "ents and the loss of mutual assured destruction . [ 107 ] He invites policymakers to question the assumptions that technological progress is always beneficial, that scientific openness is always prefe...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 268,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "The transhumanism movement is founded upon the \"continued evolution of human life beyond its current human form\" through science and technology, informed by \"life-promoting principles and values.\" [ 116 ] The movement gained wider popularity in the early 21st century.",
+    "evidence": "ts include transhumanism and singularitarianism . The transhumanism movement is founded upon the \"continued evolution of human life beyond its current human form\" through science and technology, infor...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 268,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 64 ] Moreover, these technologies have become so complex that entire fields have developed to support them, including engineering, medicine, and computer science ; and other fields have become more complex, such as construction, transportation, and architecture.",
+    "evidence": "uire sophisticated general and specific training. [ 64 ] Moreover, these technologies have become so complex that entire fields have developed to support them, including engineering, medicine, and com...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 264,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "There is a broad range of ethical issues revolving around technology, from specific areas of focus affecting professionals working with technology to broader social, ethical, and legal issues concerning the role of technology in society and everyday life.",
+    "evidence": "e potential negative impacts of new technologies. There is a broad range of ethical issues revolving around technology, from specific areas of focus affecting professionals working with technology to ...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 255,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 128 ] : 217–240 For example, in the 1940s and 1950s, when knowledge of turbulent combustion or fluid dynamics was still crude, jet engines were invented through \"running the device to destruction, analyzing what broke [...] and repeating the process\".",
+    "evidence": "t instead from engineering, tinkering and chance. [ 128 ] : 217–240 For example, in the 1940s and 1950s, when knowledge of turbulent combustion or fluid dynamics was still crude, jet engines were inve...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 253,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 67 ] Technologies have contributed to human welfare through increased prosperity, improved comfort and quality of life, and medical progress , but they can also disrupt existing social hierarchies, cause pollution, and harm individuals or groups.",
+    "evidence": "militaries and more organized forms of religion. [ 67 ] Technologies have contributed to human welfare through increased prosperity, improved comfort and quality of life, and medical progress , but th...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 248,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "While technology contributes to economic development and improves human prosperity , it can also have negative impacts like pollution and resource depletion , and can cause social harms like technological unemployment resulting from automation .",
+    "evidence": "munication and ushered in the knowledge economy . While technology contributes to economic development and improves human prosperity , it can also have negative impacts like pollution and resource dep...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 245,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 12 ] In the 20th century, as a result of scientific progress and the Second Industrial Revolution , technology stopped being considered a distinct academic discipline and took on the meaning: the systemic use of knowledge to practical ends.",
+    "evidence": "as in the Massachusetts Institute of Technology . [ 12 ] In the 20th century, as a result of scientific progress and the Second Industrial Revolution , technology stopped being considered a distinct a...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 242,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 96 ] Ethics Main article: Ethics of technology The ethics of technology is an interdisciplinary subfield of ethics that analyzes technology's ethical implications and explores ways to mitigate potential negative impacts of new technologies.",
+    "evidence": "prive us of our freedom and psychological health. [ 96 ] Ethics Main article: Ethics of technology The ethics of technology is an interdisciplinary subfield of ethics that analyzes technology's ethica...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 242,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "I find the most useful conceptual definition for this study to be that given by Harvey Brooks, who has defined technology ...as 'knowledge of how to fulfill certain human purposes in a specifiable and reproducible way.' ^ Salomon 1984 , pp.",
+    "evidence": ". p. 13. ISBN 0-691-08631-1 . JSTOR j.ctt7rpm1 . I find the most useful conceptual definition for this study to be that given by Harvey Brooks, who has defined technology ...as 'knowledge of how to fu...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 240,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 63 ] Complex manufacturing and construction techniques and organizations are needed to make and maintain more modern technologies, and entire industries have arisen to develop succeeding generations of increasingly more complex tools.",
+    "evidence": "h (like interferon cloning and DNA microarrays ). [ 63 ] Complex manufacturing and construction techniques and organizations are needed to make and maintain more modern technologies, and entire indust...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 236,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 87 ] As technology has advanced, so too has the negative environmental impact, with increased release of greenhouse gases , including methane , nitrous oxide and carbon dioxide , into the atmosphere, causing the greenhouse effect .",
+    "evidence": "86 ] although this remains highly controversial. [ 87 ] As technology has advanced, so too has the negative environmental impact, with increased release of greenhouse gases , including methane , nitro...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 233,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Then came the agricultural revolution: humans no longer needed to hunt or gather to survive, and began to settle in towns and cities, forming more complex societies, with militaries and more organized forms of religion.",
+    "evidence": "d iron tools, used for hunting or tradesmanship . Then came the agricultural revolution: humans no longer needed to hunt or gather to survive, and began to settle in towns and cities, forming more com...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 219,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 123 ] Relation to science and engineering Antoine Lavoisier experimenting with combustion generated by amplified sunlight See also: Science and Engineering Engineering is the process by which technology is developed.",
+    "evidence": "eestablish harmony between technology and nature. [ 123 ] Relation to science and engineering Antoine Lavoisier experimenting with combustion generated by amplified sunlight See also: Science and Engi...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 9,
+    "claim_length": 218,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "For example, the Hudson's Bay Company showed a variety of control mechanisms including selection techniques, information requirements, and direct local oversight through its distributed practices of socialization , communication , and participation.",
+    "evidence": "tuated knowledge developed through socialization. For example, the Hudson's Bay Company showed a variety of control mechanisms including selection techniques, information requirements, and direct loca...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 10,
+    "claim_length": 249,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "It is a powerful tool we are only just beginning to understand, and that is a profound responsibility.\" [ 163 ] Financial incentives [ edit ] There are concerns among health care professionals that these systems might not be designed in the public's interest but as income-generating machines.",
+    "evidence": "y people, and—most importantly—it impacts people. It is a powerful tool we are only just beginning to understand, and that is a profound responsibility.\" [ 163 ] Financial incentives [ edit ] There ar...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 10,
+    "claim_length": 293,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 130 ] [ 131 ] Probabilist Nassim Taleb argues that national research programs that implement the notions of serendipity and convexity through frequent trial and error are more likely to lead to useful innovations than research that aims to reach specific outcomes.",
+    "evidence": "of marketable technologies has lost credibility. [ 130 ] [ 131 ] Probabilist Nassim Taleb argues that national research programs that implement the notions of serendipity and convexity through frequen...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 10,
+    "claim_length": 266,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Privacy policy About Wikipedia Disclaimers Contact Wikipedia Legal & safety contacts Code of Conduct Developers Statistics Cookie statement Mobile view Search Search Toggle the table of contents Remote work 52 languages Add topic",
+    "evidence": "dia Foundation, Inc. , a non-profit organization. Privacy policy About Wikipedia Disclaimers Contact Wikipedia Legal & safety contacts Code of Conduct Developers Statistics Cookie statement Mobile vie...",
+    "source": "https://en.wikipedia.org/wiki/Remote_work",
+    "group_id": 11,
+    "claim_length": 229,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Privacy policy About Wikipedia Disclaimers Contact Wikipedia Legal & safety contacts Code of Conduct Developers Statistics Cookie statement Mobile view Search Search Toggle the table of contents Technology 192 languages Add topic",
+    "evidence": "dia Foundation, Inc. , a non-profit organization. Privacy policy About Wikipedia Disclaimers Contact Wikipedia Legal & safety contacts Code of Conduct Developers Statistics Cookie statement Mobile vie...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 11,
+    "claim_length": 229,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Loss functions express the discrepancy between the predictions of the model being trained and the actual problem instances (for example, in classification, one wants to assign a label to instances, and models are trained to correctly predict the preassigned labels of a set of examples).",
+    "evidence": "some loss function on a training set of examples. Loss functions express the discrepancy between the predictions of the model being trained and the actual problem instances (for example, in classifica...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 287,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Different clustering techniques make different assumptions on the structure of the data, often defined by some similarity metric and evaluated, for example, by internal compactness , or the similarity between members of the same cluster, and separation , the difference between clusters.",
+    "evidence": "ons drawn from different clusters are dissimilar. Different clustering techniques make different assumptions on the structure of the data, often defined by some similarity metric and evaluated, for ex...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 287,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Particularly beneficial in image and signal processing , k-means clustering aids in data reduction by replacing groups of data points with their centroids, thereby preserving the core information of the original data while significantly decreasing the required storage space.",
+    "evidence": "into a more compact set of representative points. Particularly beneficial in image and signal processing , k-means clustering aids in data reduction by replacing groups of data points with their centr...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 275,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Learning classifier systems (LCS) are a family of rule-based machine learning algorithms that combine a discovery component, typically a genetic algorithm , with a learning component, performing either supervised learning , reinforcement learning , or unsupervised learning .",
+    "evidence": "ther within a transaction or across transactions. Learning classifier systems (LCS) are a family of rule-based machine learning algorithms that combine a discovery component, typically a genetic algor...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 275,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 69 ] Anomaly detection [ edit ] Main article: Anomaly detection In data mining , anomaly detection, also known as outlier detection, is the identification of rare items, events or observations that raise suspicions by differing significantly from the majority of the data.",
+    "evidence": "ted by an image dictionary, but the noise cannot. [ 69 ] Anomaly detection [ edit ] Main article: Anomaly detection In data mining , anomaly detection, also known as outlier detection, is the identifi...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 274,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Supervised anomaly detection techniques require a data set that has been labelled as \"normal\" and \"abnormal\" and involves training a classifier (the key difference from many other statistical classification problems is the inherently unbalanced nature of outlier detection).",
+    "evidence": "o fit the least to the remainder of the data set. Supervised anomaly detection techniques require a data set that has been labelled as \"normal\" and \"abnormal\" and involves training a classifier (the k...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 274,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "The training examples come from some generally unknown probability distribution (considered representative of the space of occurrences) and the learner has to build a general model about this space that enables it to produce sufficiently accurate predictions in new cases.",
+    "evidence": "sks after having experienced a learning data set. The training examples come from some generally unknown probability distribution (considered representative of the space of occurrences) and the learne...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 272,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 50 ] Cluster analysis is the assignment of a set of observations into subsets (called clusters ) so that observations within the same cluster are similar according to one or more predesignated criteria, while observations drawn from different clusters are dissimilar.",
+    "evidence": "nality reduction , [ 4 ] and density estimation . [ 50 ] Cluster analysis is the assignment of a set of observations into subsets (called clusters ) so that observations within the same cluster are si...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 269,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Feature learning algorithms, also called representation learning algorithms, often attempt to preserve the information in their input but also transform it in a way that makes it useful, often as a pre-processing step before performing classification or predictions.",
+    "evidence": "rincipal component analysis and cluster analysis. Feature learning algorithms, also called representation learning algorithms, often attempt to preserve the information in their input but also transfo...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 266,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 73 ] Unsupervised anomaly detection techniques detect anomalies in an unlabelled test data set under the assumption that the majority of the instances in the data set are normal, by looking for instances that seem to fit the least to the remainder of the data set.",
+    "evidence": "categories of anomaly detection techniques exist. [ 73 ] Unsupervised anomaly detection techniques detect anomalies in an unlabelled test data set under the assumption that the majority of the instanc...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 266,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Regression analysis [ edit ] Main article: Regression analysis Illustration of linear regression on a data set Regression analysis encompasses a large variety of statistical methods to estimate the relationship between input variables and their associated features.",
+    "evidence": "heir inputs into high-dimensional feature spaces. Regression analysis [ edit ] Main article: Regression analysis Illustration of linear regression on a data set Regression analysis encompasses a large...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 265,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Statistics [ edit ] Machine learning and statistics are closely related fields in terms of methods, but distinct in their principal goal: statistics draws population inferences from a sample , while machine learning finds generalisable predictive patterns.",
+    "evidence": "esearch, especially for deep learning algorithms. Statistics [ edit ] Machine learning and statistics are closely related fields in terms of methods, but distinct in their principal goal: statistics d...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 256,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Some of the training examples are missing training labels, yet many machine-learning researchers have found that unlabelled data, when used in conjunction with a small amount of labelled data, can produce a considerable improvement in learning accuracy.",
+    "evidence": "earning (with completely labelled training data). Some of the training examples are missing training labels, yet many machine-learning researchers have found that unlabelled data, when used in conjunc...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 253,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Sparse dictionary learning [ edit ] Main article: Sparse dictionary learning Sparse dictionary learning is a feature learning method where a training example is represented as a linear combination of basis functions and assumed to be a sparse matrix .",
+    "evidence": "mination, without relying on explicit algorithms. Sparse dictionary learning [ edit ] Main article: Sparse dictionary learning Sparse dictionary learning is a feature learning method where a training ...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 251,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 87 ] [ 88 ] Support-vector machines [ edit ] Main article: Support-vector machine Support-vector machines (SVMs), also known as support-vector networks, are a set of related supervised learning methods used for classification and regression.",
+    "evidence": "RFR compatible to be use in various applications. [ 87 ] [ 88 ] Support-vector machines [ edit ] Main article: Support-vector machine Support-vector machines (SVMs), also known as support-vector netwo...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 243,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Evaluated with respect to known knowledge, an uninformed (unsupervised) method will easily be outperformed by other supervised methods, while in a typical KDD task, supervised methods cannot be used due to the unavailability of training data.",
+    "evidence": "is the discovery of previously unknown knowledge. Evaluated with respect to known knowledge, an uninformed (unsupervised) method will easily be outperformed by other supervised methods, while in a typ...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 242,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Tree models where the target variable can take a discrete set of values are called classification trees; in these tree structures, leaves represent class labels, and branches represent conjunctions of features that lead to those class labels.",
+    "evidence": "in statistics, data mining, and machine learning. Tree models where the target variable can take a discrete set of values are called classification trees; in these tree structures, leaves represent cl...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 12,
+    "claim_length": 242,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Given a set of observed points, or input–output examples, the distribution of the (unobserved) output of a new point as a function of its input data can be directly computed by looking at the observed points and the covariances between those points and the new, unobserved point.",
+    "evidence": "elate to each other depending on their locations. Given a set of observed points, or input–output examples, the distribution of the (unobserved) output of a new point as a function of its input data c...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 13,
+    "claim_length": 279,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Based on the concept of strong rules, Rakesh Agrawal , Tomasz Imieliński and Arun Swami introduced association rules for discovering regularities between products in large-scale transaction data recorded by point-of-sale (POS) systems in supermarkets.",
+    "evidence": "on rule learning, and artificial immune systems . Based on the concept of strong rules, Rakesh Agrawal , Tomasz Imieliński and Arun Swami introduced association rules for discovering regularities betw...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 13,
+    "claim_length": 251,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "^ Jouppi, Norman P.; Young, Cliff; Patil, Nishant; Patterson, David; Agrawal, Gaurav; Bajwa, Raminder; Bates, Sarah; Bhatia, Suresh; Boden, Nan; Borchers, Al; Boyle, Rick; Cantin, Pierre-luc; Chao, Clifford; Clark, Chris; Coriell, Jeremy (24 June 2017).",
+    "evidence": "iginal on 17 June 2020 . Retrieved 11 June 2020 . ^ Jouppi, Norman P.; Young, Cliff; Patil, Nishant; Patterson, David; Agrawal, Gaurav; Bajwa, Raminder; Bates, Sarah; Bhatia, Suresh; Boden, Nan; Borch...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 14,
+    "claim_length": 253,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "^ Harvati, Katerina ; Röding, Carolin; Bosman, Abel M.; Karakostis, Fotios A.; Grün, Rainer; Stringer, Chris; Karkanas, Panagiotis; Thompson, Nicholas C.; Koutoulidis, Vassilis; Moulopoulos, Lia A.; Gorgoulis, Vassilis G.; Kouloukoussa, Mirsini (2019).",
+    "evidence": "l on 11 July 2019 . Retrieved 10 September 2022 . ^ Harvati, Katerina ; Röding, Carolin; Bosman, Abel M.; Karakostis, Fotios A.; Grün, Rainer; Stringer, Chris; Karkanas, Panagiotis; Thompson, Nicholas...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 14,
+    "claim_length": 252,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "There is, however, some reason to be concerned that the data set used for testing overlaps the LLM training data set, making it possible that the Chinchilla 70B model is only an efficient compression tool on data it has already been trained on.",
+    "evidence": "and 16.4% of their original sizes, respectively. There is, however, some reason to be concerned that the data set used for testing overlaps the LLM training data set, making it possible that the Chinc...",
+    "source": "https://en.wikipedia.org/wiki/Machine_learning",
+    "group_id": 15,
+    "claim_length": 244,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 9 ] Starting in the 19th century, continental Europeans started using the terms Technik (German) or technique (French) to refer to a 'way of doing', which included all technical arts, such as dancing, navigation, or printing, whether or not they required tools or instruments.",
+    "evidence": ", which encompassed activities like architecture. [ 9 ] Starting in the 19th century, continental Europeans started using the terms Technik (German) or technique (French) to refer to a 'way of doing',...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 16,
+    "claim_length": 278,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "The earliest known technology is the stone tool , used during prehistory , followed by the control of fire —which in turn contributed to the growth of the human brain and the development of language during the Ice Age , according to the cooking hypothesis .",
+    "evidence": "ments have led to significant changes in society. The earliest known technology is the stone tool , used during prehistory , followed by the control of fire —which in turn contributed to the growth of...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 16,
+    "claim_length": 257,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 50 ] Fast (rotary) potters' wheels enabled early mass production of pottery, but it was the use of the wheel as a transformer of energy (through water wheels , windmills, and even treadmills) that revolutionized the application of nonhuman power sources.",
+    "evidence": "-thrown pottery have been found in the same area. [ 50 ] Fast (rotary) potters' wheels enabled early mass production of pottery, but it was the use of the wheel as a transformer of energy (through wat...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 16,
+    "claim_length": 256,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 13 ] History Main articles: History of technology and Timeline of historic inventions Prehistoric Main article: Prehistoric technology A person holding a hand axe Tools were initially developed by hominids through observation and trial and error .",
+    "evidence": "the systemic use of knowledge to practical ends. [ 13 ] History Main articles: History of technology and Timeline of historic inventions Prehistoric Main article: Prehistoric technology A person holdi...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 16,
+    "claim_length": 249,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "The art of making a pottery consisting of a siliceous sandy body coated with a vitreous copper glaze seems to have been known unexpectedly early, possibly even as early as the period immediately preceding the Ist Dynasty (4000 B.C.).",
+    "evidence": "dge University Press. pp. 703– 760, see page 708. The art of making a pottery consisting of a siliceous sandy body coated with a vitreous copper glaze seems to have been known unexpectedly early, poss...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 16,
+    "claim_length": 233,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 53 ] Pre-modern Main articles: Medieval technology and Renaissance technology Innovations continued through the Middle Ages with the introduction of silk production (in Asia and later Europe), the horse collar , and horseshoes .",
+    "evidence": "of this was above ground and supported by arches. [ 53 ] Pre-modern Main articles: Medieval technology and Renaissance technology Innovations continued through the Middle Ages with the introduction of...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 16,
+    "claim_length": 230,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 37 ] Continuing improvements led to the furnace and bellows and provided, for the first time, the ability to smelt and forge gold, copper, silver, and lead – native metals found in relatively pure form in nature.",
+    "evidence": "ry, libraries , schools, and scientific research. [ 37 ] Continuing improvements led to the furnace and bellows and provided, for the first time, the ability to smelt and forge gold, copper, silver, a...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 16,
+    "claim_length": 214,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 40 ] [ 41 ] Ancient Main article: Ancient technology Ancient technology Egyptian technology Indian technology Chinese technology Greek technology Roman technology Iranian technology The wheel was invented c.",
+    "evidence": "n alloys such as steel dates to around 1,800 BCE. [ 40 ] [ 41 ] Ancient Main article: Ancient technology Ancient technology Egyptian technology Indian technology Chinese technology Greek technology Ro...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 16,
+    "claim_length": 209,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "In medicine, new technologies were developed for diagnosis ( CT , PET , and MRI scanning), treatment (like the dialysis machine , defibrillator , pacemaker , and a wide array of new pharmaceutical drugs ), and research (like interferon cloning and DNA microarrays ).",
+    "evidence": "hnosignatures , given off by alien civilizations. In medicine, new technologies were developed for diagnosis ( CT , PET , and MRI scanning), treatment (like the dialysis machine , defibrillator , pace...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 17,
+    "claim_length": 266,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 107 ] Emerging technologies Main article: Emerging technologies Experimental 3D printing of muscle tissue Emerging technologies are novel technologies whose development or practical applications are still largely unrealized.",
+    "evidence": "as been invented before they prepare mitigations. [ 107 ] Emerging technologies Main article: Emerging technologies Experimental 3D printing of muscle tissue Emerging technologies are novel technologi...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 17,
+    "claim_length": 226,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 81 ] In March 2022, North Korea used Blender.io , a mixer which helped them to hide their cryptocurrency exchanges, to launder over $20.5 million in cryptocurrency, from Axie Infinity , and steal over $600 million worth of cryptocurrency from the game's owner.",
+    "evidence": "e placed, some criminals are able to bypass them. [ 81 ] In March 2022, North Korea used Blender.io , a mixer which helped them to hide their cryptocurrency exchanges, to launder over $20.5 million in...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 18,
+    "claim_length": 262,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "Some thinkers believe that this may shatter our sense of self, and have urged for renewed public debate exploring the issue more thoroughly; [ 109 ] others fear that directed evolution could lead to eugenics or extreme social inequality.",
+    "evidence": "ure through a process called directed evolution . Some thinkers believe that this may shatter our sense of self, and have urged for renewed public debate exploring the issue more thoroughly; [ 109 ] o...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 19,
+    "claim_length": 237,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 102 ] : 187 Existential risk Main article: Global catastrophic risk Existential risk researchers analyze risks that could lead to human extinction or civilizational collapse, and look for ways to build resilience against them.",
+    "evidence": "statistical analysis , and computer simulations . [ 102 ] : 187 Existential risk Main article: Global catastrophic risk Existential risk researchers analyze risks that could lead to human extinction o...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 19,
+    "claim_length": 228,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 52 ] In around 2,000 BCE, the Minoans on the Greek island of Crete built a 50 km road leading from the palace of Gortyn on the south side of the island, through the mountains, to the palace of Knossos on the north side of the island.",
+    "evidence": "was not paved and was only partially maintained. [ 52 ] In around 2,000 BCE, the Minoans on the Greek island of Crete built a 50 km road leading from the palace of Gortyn on the south side of the isla...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 20,
+    "claim_length": 235,
+    "confidence": 0.8999999999999999
+  },
+  {
+    "claim": "[ 42 ] From prehistoric times, Egyptians likely used the power of the annual flooding of the Nile to irrigate their lands, gradually learning to regulate much of it through purposely built irrigation channels and \"catch\" basins.",
+    "evidence": "s that of a Nile boat dating to around 7,000 BCE. [ 42 ] From prehistoric times, Egyptians likely used the power of the annual flooding of the Nile to irrigate their lands, gradually learning to regul...",
+    "source": "https://en.wikipedia.org/wiki/Technology",
+    "group_id": 21,
+    "claim_length": 228,
+    "confidence": 0.8999999999999999
+  }
+]

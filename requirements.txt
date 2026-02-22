@@ -1,0 +1,10 @@
+# Core dependencies
+requests
+beautifulsoup4
+
+# ML/NLP dependencies
+sentence-transformers
+scikit-learn
+
+# Testing
+pytest

@@ -1,0 +1,1 @@
+Despite its advantages, artificial intelligence also presents several risks. Some researchers believe that AI could replace human jobs, especially in routine-based roles. There are also concerns about bias in AI systems, which can lead to unfair outcomes. Additionally, the lack of transparency in some AI models makes it difficult to understand how decisions are made.
