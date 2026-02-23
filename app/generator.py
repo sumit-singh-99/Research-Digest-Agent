@@ -1,140 +1,238 @@
 import json
 import os
 import logging
+from datetime import datetime
+from urllib.parse import urlparse
 
 logger = logging.getLogger(__name__)
 
 
 def generate_sources_json(claims, groups, path):
-    """
-    Generate JSON file with all claims, evidence, and group assignments.
-    
-    Args:
-        claims: List of all claims
-        groups: List of claim groups
-        path: Output file path
-    """
     os.makedirs(os.path.dirname(path), exist_ok=True)
+    
+    theme_names = {}
+    for group_id, group in enumerate(groups):
+        theme_names[group_id] = generate_theme_title(group)
     
     output = []
     
     for group_id, group in enumerate(groups):
+        theme_name = theme_names.get(group_id, f"Theme {group_id + 1}")
+        
         for claim in group:
             entry = {
+                "id": f"claim_{group_id}_{group.index(claim)}",
                 "claim": claim["claim"],
                 "evidence": claim["evidence"],
                 "source": claim["source"],
+                "source_title": extract_source_title(claim["source"]),
+                "source_domain": extract_domain(claim["source"]),
                 "group_id": group_id,
+                "theme": theme_name,
                 "claim_length": claim.get("length", len(claim["claim"]))
             }
             
-            # Include confidence if available
             if "confidence" in claim:
                 entry["confidence"] = claim["confidence"]
             
+            entry["generated_at"] = datetime.now().isoformat()
             output.append(entry)
     
+    final_output = {
+        "metadata": {
+            "generated_at": datetime.now().isoformat(),
+            "total_claims": len(output),
+            "total_themes": len(groups),
+            "version": "1.0"
+        },
+        "claims": output
+    }
+    
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(final_output, f, indent=2, ensure_ascii=False)
     
     logger.info(f"Generated sources.json with {len(output)} claims")
 
 
 def generate_digest(groups, path):
-    """
-    Generate markdown digest with themed sections.
-    
-    Args:
-        groups: List of claim groups
-        path: Output file path
-    """
     os.makedirs(os.path.dirname(path), exist_ok=True)
     
-    with open(path, "w", encoding="utf-8") as f:
-        f.write("# Research Digest\n\n")
-        f.write(f"## Summary\n\n")
-        f.write(f"- Total Themes: {len(groups)}\n\n")
-        total_claims = sum(len(g) for g in groups)
-        f.write(f"- Total Claims: {total_claims}\n\n")
-        
-        sources = set()
-        for group in groups:
-            for claim in group:
-                sources.add(claim["source"])
-        f.write(f"- Sources: {len(sources)}\n\n")
-        
-        f.write("---\n\n")
-        
-        for i, group in enumerate(groups):
-            # Generate theme title from first claim
-            theme_title = generate_theme_title(group)
-            f.write(f"## Theme {i+1}: {theme_title}\n\n")
-            
-            # List unique sources
-            sources = set(c["source"] for c in group)
-            f.write("**Sources:**\n")
-            for s in sources:
-                f.write(f"- {s}\n")
-            f.write("\n")
-            
-            # List all claims
-            f.write("**Claims:**\n")
-            for c in group:
-                # Add confidence badge if available
-                conf = c.get("confidence")
-                if conf:
-                    conf_str = f" [Confidence: {conf:.0%}]"
-                else:
-                    conf_str = ""
-                f.write(f"- {c['claim']}{conf_str}\n")
-            
-            f.write("\n**Evidence:**\n")
-            for c in group:
-                f.write(f"> {c['evidence']}\n")
-                f.write(f"> — *Source: {c['source']}*\n\n")
-            
-            f.write("---\n\n")
+    # Get theme names
+    theme_names = [generate_theme_title(g) for g in groups]
     
-    logger.info(f"Generated digest.md with {len(groups)} themes")
+    # Calculate totals
+    total_claims = sum(len(g) for g in groups)
+    num_themes = len(groups)
+    
+    # Get sources
+    all_sources = set()
+    for g in groups:
+        for c in g:
+            all_sources.add(extract_source_title(c.get("source", "unknown")))
+    
+    # Generate executive summary based on ACTUAL themes
+    executive_summary = generate_executive_summary(theme_names, groups)
+    
+    lines = []
+    lines.append("# Research Digest")
+    lines.append("")
+    lines.append(f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    lines.append("## Summary")
+    lines.append("")
+    lines.append(f"- **Total Themes:** {num_themes}")
+    lines.append(f"- **Total Claims:** {total_claims}")
+    lines.append(f"- **Sources:** {len(all_sources)}")
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    lines.append("## Executive Overview")
+    lines.append("")
+    lines.append(executive_summary)
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    
+    # Generate theme sections
+    for i, (theme_name, group) in enumerate(zip(theme_names, groups), 1):
+        if not group:
+            continue
+            
+        lines.append(f"## {i}. {theme_name}")
+        lines.append("")
+        
+        # Get sources for this theme
+        sources = set()
+        for claim in group:
+            sources.add(extract_source_title(claim.get("source", "unknown")))
+        
+        if sources:
+            lines.append(f"**Sources:** {', '.join(sorted(sources))}")
+            lines.append("")
+        
+        # Add claims
+        for claim in group:
+            claim_text = claim["claim"]
+            if not claim_text.endswith(('.', '!', '?')):
+                claim_text = claim_text + '.'
+            
+            confidence = claim.get("confidence", 0)
+            conf_str = f" *(Confidence: {int(confidence*100)}%)*" if confidence else ""
+            
+            lines.append(f"- {claim_text}{conf_str}")
+        
+        lines.append("")
+    
+    lines.append("---")
+    lines.append("")
+    lines.append("*Research Digest generated by AI-powered research agent*")
+    
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    
+    logger.info(f"Generated digest.md with {num_themes} themes")
 
 
 def generate_theme_title(group):
-    """
-    Generate a descriptive title for a theme group.
-    
-    Args:
-        group: List of claims in the group
-        
-    Returns:
-        Theme title string
-    """
+    """Generate theme title from group content."""
     if not group:
-        return "Untitled Theme"
+        return "General"
     
-    # Use first claim as basis for title
-    first_claim = group[0]["claim"]
+    sample_claims = [c["claim"] for c in group[:3]]
+    sample_text = " ".join(sample_claims).lower()
     
-    # Truncate and clean up
-    if len(first_claim) > 60:
-        title = first_claim[:60].rsplit(" ", 1)[0] + "..."
-    else:
-        title = first_claim
+    # Priority: Remote Work
+    if any(kw in sample_text for kw in ["remote work", "work from home", "telecommut", "employee", "productivity", "survey", "office"]):
+        return "Remote Work & Productivity"
     
-    return title
+    # Priority: AI Risks
+    if any(kw in sample_text for kw in ["risk", "bias", "danger", "misuse", "ethics", "safety", "regulation", "harmful", "weapon", "privacy", "discriminat"]):
+        return "AI Risks & Ethics"
+    
+    # Priority: AI Technology
+    if any(kw in sample_text for kw in ["machine learning", "deep learning", "neural", "algorithm", "model", "training", "gpt", "transformer", "artificial intelligence"]):
+        return "AI Technology"
+    
+    # Tech & Society
+    if any(kw in sample_text for kw in ["technology", "energy", "environment", "climate", "economic", "industry", "society"]):
+        return "Technology & Society"
+    
+    return "General Insights"
+
+
+def generate_executive_summary(theme_names, groups):
+    """Generate summary based on ACTUAL themes present."""
+    lines = []
+    
+    # Build dynamic summary based on themes
+    summary_parts = []
+    
+    for theme in theme_names:
+        if theme == "AI Technology":
+            summary_parts.append("advancements in AI systems and machine learning")
+        elif theme == "AI Risks & Ethics":
+            summary_parts.append("ethical risks and societal concerns surrounding AI")
+        elif theme == "Remote Work & Productivity":
+            summary_parts.append("the impact of remote work on productivity and workforce behavior")
+        elif theme == "Technology & Society":
+            summary_parts.append("broader technology trends and societal implications")
+    
+    if summary_parts:
+        if len(summary_parts) == 1:
+            lines.append(f"This digest covers {summary_parts[0]}.")
+        elif len(summary_parts) == 2:
+            lines.append(f"This digest covers {summary_parts[0]} and {summary_parts[1]}.")
+        else:
+            lines.append(f"This digest covers {', '.join(summary_parts[:-1])}, and {summary_parts[-1]}.")
+    
+    # Add key findings count
+    total_claims = sum(len(g) for g in groups)
+    lines.append(f"Across {len(theme_names)} key themes, {total_claims} research-backed insights are presented.")
+    
+    return "\n".join(lines)
+
+
+def extract_source_title(url):
+    if not url or url == "unknown":
+        return "Unknown Source"
+    
+    try:
+        parsed = urlparse(url)
+        path = parsed.path
+        
+        if "wikipedia.org" in url:
+            if path and path != "/":
+                title = path.split("/")[-1]
+                title = title.replace("_", " ").title()
+                return f"Wikipedia: {title}"
+            return "Wikipedia"
+        
+        domain = parsed.netloc or "Unknown"
+        if domain.startswith("www."):
+            domain = domain[4:]
+        
+        return domain
+    except Exception:
+        return "Unknown Source"
+
+
+def extract_domain(url):
+    if not url or url == "unknown":
+        return "unknown"
+    
+    try:
+        parsed = urlparse(url)
+        domain = parsed.netloc or "unknown"
+        if domain.startswith("www."):
+            domain = domain[4:]
+        return domain
+    except Exception:
+        return "unknown"
 
 
 def generate_summary_stats(docs, claims, groups):
-    """
-    Generate summary statistics about the processing.
-    
-    Args:
-        docs: List of processed documents
-        claims: List of extracted claims
-        groups: List of claim groups
-        
-    Returns:
-        Dictionary with statistics
-    """
     sources = set(d["source"] for d in docs)
     
     return {

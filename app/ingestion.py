@@ -2,71 +2,102 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import logging
+import re
 
-# Set up logging
+# Logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Configuration
+# Config
 MIN_CONTENT_LENGTH = 50
 FETCH_TIMEOUT = 10
 
-
-# HTTP headers to avoid 403 errors from websites
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.5",
+    "User-Agent": "Mozilla/5.0",
+    "Accept": "text/html",
 }
+
+
+def clean_text(text):
+    """
+    Clean raw text by removing citations, references, and noise.
+    """
+
+    # Remove [1], [23], etc.
+    text = re.sub(r"\[[^\]]*\]", "", text)
+
+    # Remove weird lines starting with ^
+    text = re.sub(r"^\s*\^.*$", "", text, flags=re.MULTILINE)
+
+    # Remove Wikipedia junk words
+    junk_patterns = [
+        "Privacy policy",
+        "About Wikipedia",
+        "Disclaimers",
+        "Contact Wikipedia",
+        "Code of Conduct",
+        "Developers",
+        "Statistics",
+        "Cookie statement",
+        "ISBN",
+        "Retrieved",
+        "Jump to content",
+        "Main menu",
+        "Navigation",
+    ]
+
+    for pattern in junk_patterns:
+        text = text.replace(pattern, "")
+
+    # Normalize spaces
+    text = re.sub(r"\s+", " ", text).strip()
+
+    return text
 
 
 def fetch_url(url):
     """
-    Fetch content from a URL.
-    
-    Args:
-        url: The URL to fetch
-        
-    Returns:
-        Dictionary with source, title, text, length or None on failure
+    Fetch and extract meaningful content from URL.
     """
     try:
         logger.info(f"Fetching URL: {url}")
         res = requests.get(url, timeout=FETCH_TIMEOUT, headers=HEADERS)
         res.raise_for_status()
-        
+
         soup = BeautifulSoup(res.text, "html.parser")
-        
-        # Extract title
-        title = soup.title.string if soup.title else "No Title"
-        title = title.strip() if title else "No Title"
-        
-        # Extract text content
-        # Remove script and style elements
-        for script in soup(["script", "style"]):
-            script.decompose()
-        
-        text = soup.get_text(separator=" ", strip=True)
-        
-        # Clean up whitespace
-        text = " ".join(text.split())
-        
-        logger.info(f"Successfully fetched {url}, length: {len(text)} chars")
-        
+
+        # Title
+        title = soup.title.string.strip() if soup.title else "No Title"
+
+        # Remove scripts/styles
+        for tag in soup(["script", "style", "nav", "footer", "header"]):
+            tag.decompose()
+
+        # ✅ IMPORTANT FIX: Only extract paragraph content
+        paragraphs = soup.find_all("p")
+
+        text = " ".join(p.get_text() for p in paragraphs)
+
+        # Clean text
+        text = clean_text(text)
+
+        logger.info(f"Fetched {url} | Length: {len(text)}")
+
         return {
             "source": url,
             "title": title,
             "text": text,
             "length": len(text)
         }
+
     except requests.exceptions.Timeout:
-        logger.warning(f"Timeout fetching {url}")
+        logger.warning(f"Timeout: {url}")
         return None
     except requests.exceptions.ConnectionError:
-        logger.warning(f"Connection error for {url}")
+        logger.warning(f"Connection error: {url}")
         return None
     except requests.exceptions.HTTPError as e:
-        logger.warning(f"HTTP error for {url}: {e}")
+        logger.warning(f"HTTP error: {url} | {e}")
         return None
     except Exception as e:
         logger.error(f"Error fetching {url}: {e}")
@@ -75,44 +106,31 @@ def fetch_url(url):
 
 def read_file(path):
     """
-    Read content from a local file.
-    
-    Args:
-        path: Path to the file
-        
-    Returns:
-        Dictionary with source, title, text, length or None on failure
+    Read and clean local file content.
     """
     try:
         logger.info(f"Reading file: {path}")
-        
+
         if not os.path.exists(path):
-            logger.warning(f"File does not exist: {path}")
+            logger.warning(f"File not found: {path}")
             return None
-        
+
         with open(path, "r", encoding="utf-8") as f:
             text = f.read()
-        
-        # Check if file is empty
-        if not text or not text.strip():
-            logger.warning(f"File is empty: {path}")
+
+        if not text.strip():
+            logger.warning(f"Empty file: {path}")
             return None
-        
-        # Clean up whitespace
-        text = " ".join(text.split())
-        
+
+        text = clean_text(text)
+
         return {
             "source": path,
             "title": os.path.basename(path),
             "text": text,
             "length": len(text)
         }
-    except UnicodeDecodeError:
-        logger.error(f"Encoding error reading {path}")
-        return None
-    except PermissionError:
-        logger.warning(f"Permission denied: {path}")
-        return None
+
     except Exception as e:
         logger.error(f"Error reading {path}: {e}")
         return None
@@ -120,41 +138,33 @@ def read_file(path):
 
 def ingest(inputs):
     """
-    Ingest content from multiple sources (URLs or files).
-    
-    Args:
-        inputs: List of URLs or file paths
-        
-    Returns:
-        List of document dictionaries with metadata
+    Ingest multiple sources.
     """
     docs = []
     failed = []
-    
+
     for item in inputs:
-        logger.info(f"Processing input: {item}")
-        
+        logger.info(f"Processing: {item}")
+
         if item.startswith("http"):
             data = fetch_url(item)
         else:
             data = read_file(item)
-        
-        # Check if data is valid and has sufficient content
+
         if data is None:
             failed.append(item)
-            logger.warning(f"Failed to process: {item}")
             continue
-            
+
         if data["length"] < MIN_CONTENT_LENGTH:
-            logger.warning(f"Content too short from {item}: {data['length']} chars")
+            logger.warning(f"Too short: {item}")
             failed.append(item)
             continue
-        
+
         docs.append(data)
-        logger.info(f"Successfully processed {item}: {data['length']} chars")
-    
+
+    logger.info(f"Ingested {len(docs)} documents")
+
     if failed:
-        logger.info(f"Failed to process {len(failed)} out of {len(inputs)} sources")
-    
-    logger.info(f"Successfully ingested {len(docs)} documents")
+        logger.info(f"Failed sources: {len(failed)}")
+
     return docs

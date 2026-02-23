@@ -1,24 +1,54 @@
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import AgglomerativeClustering
+from sklearn.metrics.pairwise import cosine_similarity
 import logging
 import hashlib
 
 logger = logging.getLogger(__name__)
 
-# Global model instance (loaded once)
 _model = None
-
-# Default configuration
-# Note: With cosine distance, threshold ranges from 0 (identical) to 2 (opposite)
-# Lower threshold = stricter grouping (fewer claims per group)
-# Higher threshold = looser grouping (more claims grouped together)
-# 0.2 = very strict, 0.3 = strict, 0.5 = moderate, 1.0 = loose
-DEFAULT_THRESHOLD = 1.2
 MODEL_NAME = 'all-MiniLM-L6-v2'
+
+# STRICT domain classification
+REMOTE_WORK_KEYWORDS = [
+    "remote work", "work from home", "work-from-home",
+    "telecommut", "telecommuting", "flexible work",
+    "hybrid work", "office attendance", "workplace",
+    "employee", "productivity", "commute", "home office",
+    "work arrangement", "work model", "return to office",
+    "in-office", "out-of-office", "virtual meeting"
+]
+
+AI_CORE_KEYWORDS = [
+    "artificial intelligence", "ai ", " ai,", "machine learning",
+    "deep learning", "neural network", "algorithm", "algorithmic",
+    "gpt", "llm", "language model", "transformer",
+    "model", "models", "training data", "training set",
+    "classifier", "prediction", "classification"
+]
+
+AI_RISK_KEYWORDS = [
+    "risk", "risk", "danger", "harm", "misuse", "abuse",
+    "bias", "biased", "fairness", "discriminat", "discrimination",
+    "ethical", "ethics", "moral", "safety", "unsafe",
+    "regulation", "regulate", "policy", "government",
+    "privacy", "surveillance", "surveill",
+    "weapon", "weaponize", "military", "attack",
+    "existential", "catastrophic", "alignment",
+    "deepfake", "disinformation", "misinformation",
+    "job displacement", "unemployment", "automation"
+]
+
+TECH_SOCIETY_KEYWORDS = [
+    "technology", "technological", "innovation",
+    "energy", "emission", "carbon", "climate", "environment",
+    "sustainability", "renewable", "pollution",
+    "economic", "economy", "industry", "industries",
+    "society", "social", "culture", "cultural"
+]
 
 
 def get_model():
-    """Get or load the sentence transformer model"""
     global _model
     if _model is None:
         logger.info(f"Loading sentence transformer model: {MODEL_NAME}")
@@ -27,108 +57,127 @@ def get_model():
     return _model
 
 
-def compute_similarity(text1, text2):
-    """
-    Compute cosine similarity between two texts.
-    
-    Args:
-        text1: First text
-        text2: Second text
-        
-    Returns:
-        Similarity score (0-1)
-    """
-    model = get_model()
-    embeddings = model.encode([text1, text2])
-    
-    # Cosine similarity
-    from sklearn.metrics.pairwise import cosine_similarity
-    similarity = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
-    
-    return similarity
-
-
 def get_claim_hash(claim):
-    """
-    Generate a simple hash for a claim to help with exact duplicate detection.
-    
-    Args:
-        claim: The claim text
-        
-    Returns:
-        Hash string
-    """
     return hashlib.md5(claim.lower().strip().encode()).hexdigest()
 
 
-def group_claims(claims, threshold=DEFAULT_THRESHOLD):
+def assign_strict_domain(claim_text):
     """
-    Group similar claims together using semantic clustering.
+    STRICT domain classification.
+    Returns (domain_name, confidence) or (None, 0) if no match.
+    """
+    text_lower = claim_text.lower()
     
-    Args:
-        claims: List of claim dictionaries
-        threshold: Distance threshold for clustering (lower = stricter)
-        
-    Returns:
-        List of groups, each containing related claims
+    # Check Remote Work
+    remote_score = sum(1 for kw in REMOTE_WORK_KEYWORDS if kw in text_lower)
+    if remote_score > 0:
+        return ("Remote Work & Productivity", remote_score)
+    
+    # Check AI Risk keywords (must check before general AI)
+    ai_risk_score = sum(1 for kw in AI_RISK_KEYWORDS if kw in text_lower)
+    
+    # Check AI core keywords
+    ai_core_score = sum(1 for kw in AI_CORE_KEYWORDS if kw in text_lower)
+    
+    if ai_core_score > 0 or ai_risk_score > 0:
+        # If has risk keywords, classify as AI Risks
+        if ai_risk_score > 0:
+            return ("AI Risks & Ethics", ai_risk_score + ai_core_score)
+        else:
+            return ("AI Technology", ai_core_score)
+    
+    # Check Tech & Society
+    tech_score = sum(1 for kw in TECH_SOCIETY_KEYWORDS if kw in text_lower)
+    if tech_score >= 2:  # Need at least 2 matches
+        return ("Technology & Society", tech_score)
+    
+    # No match - discard
+    return (None, 0)
+
+
+def group_claims_by_strict_domain(claims):
     """
+    Group claims using STRICT domain classification.
+    Discards claims that don't fit any domain.
+    """
+    if not claims:
+        return []
+    
+    domain_groups = {}
+    discarded = 0
+    
+    for claim in claims:
+        domain, score = assign_strict_domain(claim["claim"])
+        
+        if domain is None:
+            discarded += 1
+            continue
+        
+        if domain not in domain_groups:
+            domain_groups[domain] = []
+        
+        domain_groups[domain].append(claim)
+    
+    logger.info(f"Strict domain grouping: {len(domain_groups)} domains, {discarded} discarded")
+    
+    # Sort claims within each domain by quality
+    for domain in domain_groups:
+        domain_groups[domain].sort(
+            key=lambda x: x.get("quality_score", x.get("confidence", 0)),
+            reverse=True
+        )
+    
+    return list(domain_groups.values())
+
+
+def compute_similarity(text1, text2):
+    model = get_model()
+    embeddings = model.encode([text1, text2])
+    similarity = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
+    return similarity
+
+
+def group_claims(claims, threshold=1.2):
+    """Main grouping function - uses strict domain classification."""
     if not claims:
         logger.warning("No claims provided for grouping")
         return []
     
-    logger.info(f"Grouping {len(claims)} claims with threshold {threshold}")
+    logger.info(f"Grouping {len(claims)} claims with STRICT domain classification")
     
-    model = get_model()
+    # Use strict domain classification
+    groups = group_claims_by_strict_domain(claims)
     
-    # Extract claim texts
-    texts = [c["claim"] for c in claims]
+    if not groups:
+        logger.warning("No claims after strict domain filtering")
+        return []
     
-    # Generate embeddings
-    logger.info("Computing embeddings...")
-    embeddings = model.encode(texts)
+    logger.info(f"Created {len(groups)} domain groups")
+    return groups
+
+
+def deduplicate_exact(claims):
+    """Remove exact duplicate claims."""
+    seen_hashes = set()
+    unique_claims = []
     
-    # Perform clustering
-    logger.info("Performing clustering...")
-    clustering = AgglomerativeClustering(
-        n_clusters=None,
-        distance_threshold=threshold,
-        metric='cosine',  # Use cosine distance for better semantic matching
-        linkage='average'  # Use average linkage for more balanced groups
-    ).fit(embeddings)
+    for claim in claims:
+        claim_hash = get_claim_hash(claim["claim"])
+        if claim_hash not in seen_hashes:
+            seen_hashes.add(claim_hash)
+            unique_claims.append(claim)
     
-    # Organize into groups
-    groups = {}
-    for idx, label in enumerate(clustering.labels_):
-        groups.setdefault(label, []).append(claims[idx])
-    
-    result = list(groups.values())
-    logger.info(f"Created {len(result)} groups from {len(claims)} claims")
-    
-    return result
+    logger.info(f"Removed {len(claims) - len(unique_claims)} exact duplicates")
+    return unique_claims
 
 
 def find_similar_claims(query_claim, claims, top_k=5):
-    """
-    Find claims similar to a query claim.
-    
-    Args:
-        query_claim: The claim to find similar ones for
-        claims: List of all claims
-        top_k: Number of similar claims to return
-        
-    Returns:
-        List of (claim, similarity_score) tuples
-    """
+    """Find similar claims."""
     model = get_model()
-    
     query_embedding = model.encode([query_claim])
     claim_embeddings = model.encode([c["claim"] for c in claims])
-    
-    from sklearn.metrics.pairwise import cosine_similarity
-    
     similarities = cosine_similarity(query_embedding, claim_embeddings)[0]
     
-    # Get top-k similar claims
     indexed_similarities = list(enumerate(similarities))
     indexed_similarities.sort(key=lambda x: x[1], reverse=True)
     
@@ -137,27 +186,3 @@ def find_similar_claims(query_claim, claims, top_k=5):
         results.append((claims[idx], score))
     
     return results
-
-
-def deduplicate_exact(claims):
-    """
-    Remove exact duplicate claims.
-    
-    Args:
-        claims: List of claim dictionaries
-        
-    Returns:
-        List of claims with exact duplicates removed
-    """
-    seen_hashes = set()
-    unique_claims = []
-    
-    for claim in claims:
-        claim_hash = get_claim_hash(claim["claim"])
-        
-        if claim_hash not in seen_hashes:
-            seen_hashes.add(claim_hash)
-            unique_claims.append(claim)
-    
-    logger.info(f"Removed {len(claims) - len(unique_claims)} exact duplicates")
-    return unique_claims

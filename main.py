@@ -61,8 +61,9 @@ def main():
     # ]
     
     # Clustering threshold (with cosine distance)
-
-    threshold = 0.78
+    # Lower = stricter grouping, Higher = looser grouping  
+    # 0.3 = very strict, 0.5-0.6 = moderate, 1.0+ = loose
+    threshold = 0.55
     
     # Include confidence scores (optional feature)
     include_confidence = True
